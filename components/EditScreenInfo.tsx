@@ -9,7 +9,14 @@ import { Text, View } from './Themed';
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
     <View>
-      <View style={styles.getStartedContainer}>
+      <Text>Home</Text>
+      <Text>Profile</Text>
+      <Text>Past Work</Text>
+      <Text>Future Work</Text>
+      <Text>FAQ</Text>
+      <Text>Promo Codes</Text>
+      <Text>Free Work</Text>
+      {/* <View style={styles.getStartedContainer}>
         <Text
           style={styles.getStartedText}
           lightColor="rgba(0,0,0,0.8)"
@@ -40,7 +47,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
             Tap here if your app doesn't automatically update after making changes
           </Text>
         </ExternalLink>
-      </View>
+      </View> */}
     </View>
   );
 }
